@@ -1,0 +1,137 @@
+body {
+  font: 15px/1.5 arial,helvetica,sans-serif;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: auto;
+  overflow:hidden;
+  width: 80%
+}
+header{
+  background-color:#35424a;
+  padding-top: 10px;
+  border-bottom: #8c1717 2px solid;
+}
+header h1{
+  color: white;
+  margin:0;
+  float:left;
+  padding-bottom: 20px;
+}
+
+header ul{
+}
+header li{
+  list-style-type: none;
+  float:left;
+  margin: 0 10px 0 10px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover{
+  text-decoration-style: solid;
+  color: #8c1717;
+}
+
+header nav{
+  float:right;
+  margin:0;
+}
+
+#highlight{
+  color: #8c1717;
+}
+
+#currentpage{
+    color: #8c1717;
+}
+
+section.middle{
+  min-height: 500px;
+  background: url("../img/gym1.jpg") no-repeat 0 -200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+}
+
+section h1{
+  color: white;
+  text-align:center;
+  font-size: 55px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#middle_content{
+  width:60%;
+  margin:auto;
+  color:white;
+}
+
+.form{
+  background-color:#35424a;
+  padding-bottom: 10px;
+}
+
+.form form{
+  float: right;
+  margin-top: 35px;
+}
+
+.form #regtitle{
+  float:left;
+  margin-top: 15px;
+  color:white;
+}
+
+.form input[type="submit"]{
+  border: none;
+  padding: 7px 10px 7px 10px;;
+  background-color: red;
+}
+
+.form input[type="email"]{
+  padding: 5px 15px 5px 15px;
+}
+
+footer{
+  background-color:red;
+  color:white;
+  padding: 10px;
+}
+
+footer p{
+  width: 80%;
+  margin:auto;
+  padding-top: 10px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+footer p a{
+  text-decoration:none;
+  color: white;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin:auto;
+    text-align: center;
+  }
+
+  .flex-item{
+    width: 20%;
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin:auto;
+
+  }
